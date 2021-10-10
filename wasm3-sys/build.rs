@@ -138,6 +138,7 @@ fn main() {
 
     cfg.cpp(false)
         .define("d_m3LogOutput", Some("0"))
+        .define("d_m3FixedHeap", Some("1024000"))
         .warnings(false)
         .extra_warnings(false)
         .include(WASM3_SOURCE);
